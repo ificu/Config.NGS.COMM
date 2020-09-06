@@ -1,0 +1,31 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-1745eb4ed74-67ac1678b5f2f5fe": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "whks-db.mariadb.database.azure.com",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "whks-db.mariadb.database.azure.com",
+				"port": "3306",
+				"url": "jdbc:mysql://whks-db.mariadb.database.azure.com:3306/",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
